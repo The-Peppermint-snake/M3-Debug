@@ -1,5 +1,6 @@
 let v1 = 3;
 let v2 = 4;
+//uncommented and added quotes around equals
 alert("3 times 4" + " equals " + v1 * v2);
 
  // This sets the general styling for the divs within the section tag using .style
@@ -7,6 +8,7 @@ alert("3 times 4" + " equals " + v1 * v2);
             section.style.width = "50%"
             section.style.textAlign = "center"
             section.style.fontFamily = "arial, serif"
+            //changed to fontSyle not style.fontweight
             section.fontStyle = "bold";
             section.style.fontStyle = "italic"
             section.style.fontSize = "20px"
